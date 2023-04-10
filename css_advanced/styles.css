@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Header 
+      ============================= */
+.headerclass {
+  position: absolute;
+  width: 1103.41px;
+  height: 29.46px;
+  left: 171.59px;
+  top: 35.02px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu a {
+  color: white;
+  text-decoration: none;
+  padding-right: 1rem;
+  font-weight: bold;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+}
+
+.Menu {
+  margin-top: 29px;
+}
+
+/* Section Main Part
+      ============================= */
+.HeaderMainPart {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-position-y: 10;
+}
+
+.HeaderMainPart h1 {
+  position: absolute;
+  height: 151px;
+  left: 26.18%;
+  right: 26.32%;
+  top: calc(50% - 151px/2 - 251px);
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 151px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.HeaderMainPart h2 {
+  position: absolute;
+  height: 40px;
+  left: 41.94%;
+  right: 39.93%;
+  top: calc(50% - 40px/2 + 104.5px);
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #C271FF;
+}
+
+.HeaderMainPart button {
+  position: absolute;
+  left: 44.38%;
+  right: 44.38%;
+  top: 38.33%;
+  bottom: 57.64%;
+
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.HeaderMainPart .p1 {
+  position: absolute;
+  height: 20px;
+  left: 41.18%;
+  right: 55.21%;
+  top: calc(50% - 20px/2 - 175.5px);
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
